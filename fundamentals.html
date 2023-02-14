@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<Title> Jordan's Page </Title>
+
+
+</head>
+
+<body>
+
+<nav>   <!-- allows broweser to identify that its a nav bar-->
+    <ul class="navul">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="fundamentals.html">Fundametals</a></li> <!-- binary, network tops. and machine parts etc-->
+        <li><a href="projectmgmt.html">Project Management</a></li>  <!--Lifecycles, mehtodology, VSM etc-->
+        <li><a href="codingbasics.html">Coding Basics</a></li> <!-- coding principles (WET, KISS), code types, data types etc-->
+        <li><a href="portfolio.html">Portfolio</a></li> <!-- words and defs-->
+    </ul>
+</nav>
+
+<h1 class="headers">Fundamentals</h1>
+
+<p class="briefp"> 
+    Knowing the fundamentals of computing gives you the foundations to build on that knowledge, knowing why
+    and how things are happening.
+
+</p>
+
+<h2> Components </h2>
+
+<p class="componentsp">
+    Inside a computer are transistors to represent the 1s and 0s of binary code by being either on or off.
+<br/>
+<br/>
+    The motherboard connects all components of a computer together such as the CPU, RAM, hard drive,
+    connectors for input/output etc.
+<br/>
+<br/>
+    Some of these components are as follows:
+<br/>
+<br/>
+    There is also RAM (Random Access Memory) which is short-term memory that disappears once the system turns
+    off. RAM is needed on every device. 
+<br/>
+<br/>
+    HDD (Hard Disk Drive), SSD (Solid State Drive) and Optical Drives (CDs/DVDs) have long-term memory
+    and take longer to process information.
+<br/>
+<br/>
+    HDD is the main data storage, it has the operating system on it.
+<br/>
+<br/>
+    SSD is faster and more advanced, with no moving parts (unlike HDD)
+    Unlike the volatile nature of RAM, these retain access to the data.
+<br/>
+<br/>
+    The Power Supply is a hardware component that supplies electricity to the machine, it would be
+    pretty useless without one.
+<br/>
+<br/>
+    The GPU is a graphics processing unit, it allows graphics to be rendered in an efficient and effective manner.
+<br/>
+<br/>
+    Servers allow for a centralised storage. This can be fore files, printer jobs, CCTV footage,
+    e-mails, databases etc.
+
+<br/>
+    Examples:
+    Web Server- web storage
+    File Server- for computers on same network
+    Print Server- connects to a printer
+    Application Server- like google docs operates and stores online
+    Media Server- files are streamed as opposed to being sent in full
+<br/>
+<br/>
+    The Router connects to devices to provide internet communication.
+<br/>
+<br/>
+
+
+</p>
+
+<h2> Data </h2>
+
+<p class="datap">
+
+    Data can be represented in multiple ways, such as words, numbers, images, sounds and bytes.
+
+    Numeric: (integers and floats)
+    String: ("Characters")
+    Boolean: True / False
+    Lists: [arrays used to store many elements]
+
+    Data can be stored in several ways. 
+
+    Direct Area Storage(DAS): is the storage local to your specific machine.
+    Network Based Storage: is off-site and can be accessed by different machines.
+
+
+</p>
+
+<h2>Storage Measurements</h2>
+
+<p class="briefp2"> 
+    Storage measurements go up to a very high amount, but here are a few:
+</p>
+
+<table class="storagetable">
+
+    <tr>
+        <td>Name</td>
+        <td>Factor</td>
+        <td>Amount</td>
+    </tr>
+
+    <tr>
+        <td>Kilobyte(KB)</td>
+        <td>10^3</td>
+        <td>1,000 bytes</td>
+    </tr>
+
+    <tr>
+        <td>Megabyte</td>
+        <td>10^6</td>
+        <td>1,000,000,000 bytes</td>
+    </tr>
+
+    <tr>
+        <td>Gigabyte</td>
+        <td>10^9</td>
+        <td>1,000,000,000 bytes</td>
+    </tr>
+
+    <tr>
+        <td>Terabyte</td>
+        <td>10^12</td>
+        <td>1,000,000,000,000 bytes</td>
+    </tr>
+
+
+</table>
+
+<h2>The Internet</h2>
+
+<p class="internetp">
+    The internet is an example of Wide Area Network (WAN(. It is of the  biggest WAN in the world.
+    A Wide Area Network is not limited to a single location, but it spans over a large geographical area 
+    through a telephone line, fibre optic cable or satellite links. 
+<br/>
+    A Wide Area Network is widely used in the field of business, government, and education.
+<br/>
+    A Local Area Network, however, is the common, limited area coverage such the wifi in a home.
+<br/>
+<br/>
+    The way the data arrives at your computer is through it's IP address,
+    which allows the data to be sent to your unique location.
+<br/>
+<br/> 
+    Transmission control protocol (TCP) 
+    drives reliable data transfers while user datagram protocol (UDP) 
+    prioritizes speed and efficiency. 
+<br/>
+    But both are a method in which pockets of data are transferred between devices,
+    whilst checking for errors along the way. 
+<br/>
+    Using a Transport Layer Security (TLS) you can send encrypted data -
+    preventing it from being seen by anyone who shouldn't.
+<br/>
+<br/> 
+    In order for your browser to the load the information of webpages you are 
+    looking at on the internet, hhtp and dns protocols are used. DNS (Domain Name System) is the system and protocol that translates
+    domain names to IP addresses and more. 
+    HTTP (Hypertext Transfer Protocol) is used to transfer webpages.
+</p>
+
+
+<h2>Network Topologies</h2>
+
+    <p class="topologiesp">
+    A Network Topology is the way in which a collection of systems are connected.
+    Here are a few examples:
+    </p>
+
+<h3>Bus Topology</h3>
+
+<img class="bustop" src="bustop.jpg">
+
+    <p class="topologiesp">
+    All devices in the network are connected by one central RJ-45 network cable or coaxial cable.
+    The single cable which transmits the data between all devices is referred to as a bus or backbone.
+    </p>
+
+<h3>Star Topology</h3>
+
+<img class="startop" src="startop.jpg">
+
+    <p class="topologiesp">
+        The Star Topology uses a centralised hub to connect to each host simulataneously. 
+    </p>
+
+    <h3>Mesh Topology</h3>
+
+    <img class="meshtop" src="meshtop.jpg">
+    
+    <p class="topologiesp">
+        The Mesh Topology is a LAN with as many nodes between each client for 
+        an efficient data route.
+    </p>
+    
+
+    <h3>Ring Topology</h3>
+
+    <img class="ringtop" src="ringtop.jpg">
+        
+    <p class="topologiesp">
+        The Ring Topology has each node connecting to two other nodes
+        from either side, forming a single continuous pathway for data to transmit.
+    </p>
+        
+
+<h2>Binary Code</h2>
+
+<p class="binaryp">
+    A binary digit is the smallest a computer can store. 
+
+    A compiler will have translated a programming language into binary code for the computer system.
+
+    The binary code system works as follows:
+
+</p>
+
+<p class="binaryp">
+    Using this system, you can figure out that the number 9 is: <br/>
+
+    1 (2^3 or x8), 0 (2^2 or x4), 0 (2^1 or x2), 1 (2^0 or x1). </br>
+
+    As there is one 8 and one 1 to make 9 in the simplest manner.
+
+    Other datatypes also have their own binary numbers, but they'd be much longer.
+
+</p>
+
+<img class="binaryimg" src="binary.jpg">
+
+<h2>Boolean Algebra</h2>
+
+<p class="booleanp">
+    Boolean Algebra uses True or False to represent 1s and 0s respectively. <br/>
+
+    There are different types of Logic Gates that use boolean algebra, here
+    are some visual representations:
+    
+</p>
+
+<img class="gatesimg" src="logicgates.jpg">
+
+<p class="booleanp">
+    
+
+
+<br/>
+    <b>NOT</b> gates take one input and produces one output, this is called an inverter.<br/>
+    Input true = false <br/>
+    Input False = true <br/>
+<br/>
+<br/>
+    <b>AND</b> gates take two or more inputs and produce one output.
+    Returns true if all inputs are true.<br/>
+    Both false = false <br/>
+    One false/ one true = false <br/>
+    Both true = true <br/>
+</br>
+<br/>
+    <b>NAND</b> gates take two inputs and provides one output, which is inverted. </br>
+    Both false = true <br/>
+    One false/ one true = true <br/>
+    Both true = false <br/>
+</br>
+<br/>
+    <b>OR</b> gates takes two or more inputs and produces one output, 
+    returns true is one is true. </br>
+    Both false = false </br>
+    One false/ one true = true </br>
+    Both true = true </br>
+</br>
+<br/>
+    <b>XOR</b> gate, or exclusive-or, takes two inputs and produces one output.
+    It excludes both outputs being the same.</br>
+    Both false = false </br>
+    One false/ one true = true </br>
+    Both true = false </br>
+</br>
+<br/>
+    <b>NOR</b> gates take two or more inputs and produces one output, an inverted-OR.</br>
+    Both false = true</br>
+    One false/ one true = false </br>
+    Both true = false </br> 
+</br>
+<br/>
+    <b>EXNOR</b> gates, excluvise-nor, can only take two inputs and produce one output.
+    It is an inverted EXOR. </br>
+    Both false = true </br>
+    One false/ one true = false </br>
+    Both true = false </br>
+</br>   
+</br> 
+
+
+</p>
+
+
+<div class="footer">by Jordan Dignan</div>
+
+
+</body>
+
+</html>

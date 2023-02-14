@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<Title> Jordan's Page </Title>
+
+
+</head>
+
+<body>
+
+<nav>   <!-- allows browser to identify that its a nav bar-->
+    <ul class="navul">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="fundamentals.html">Fundametals</a></li> <!-- binary, network tops. and machine parts etc-->
+        <li><a href="projectmgmt.html">Project Management</a></li>  <!--Lifecycles, mehtodology, VSM etc-->
+        <li><a href="codingbasics.html">Coding Basics</a></li> <!-- coding principles (WET, KISS), code types, data types etc-->
+        <li><a href="portfolio.html">Portfolio</a></li> <!-- words and defs-->
+    </ul>
+</nav>
+
+
+<h1 class="headers">Coding Basics</h1>
+
+<p class="briefp"> 
+    There are different types of programming languages, as well 
+    different programming languages themselves, but they share many fundamental similaries. <br/>
+    This page has information about different programming languages, different types of 
+    programming languages, functions and coding principles.
+
+</p>
+
+<h3> Programming Languages </h3>
+
+<p class="langp"> 
+    
+    HTML: <br/><br/>
+
+    Hypertext Markup Language is the skeleton of a website. <br/>
+    A markup language puts the structure in place for other languages to be written and displayed.
+
+    <br/><br/><br/>
+
+    CSS: <br/><br/>
+    Cascading Style Sheets is used in conjunction to HTML as it styles the elements stated by HTML.<br/>
+    This is like the hair and clothing if HTML is the skeleton.
+
+    <br/><br/><br/>
+
+    Javascript: <br/><br/>
+    JS is multi-paradigm, it supports event-drivem, functional and imperative programming styles. <br/>
+    It is used to create interactivity on websites, add functionality, creatre user accounts,
+    send and request the data to the servers and databases and more.
+
+    <br/><br/><br/>
+
+
+
+    Python: <br/><br/>
+    Python is a multi-paradigm, object-oriented, procedural (imperative), functional programming language.<br/>
+
+    It can be used for web applications and data-analysis. 
+
+
+
+<br/><br/><br/>
+
+    SQL: <br/><br/>
+
+    SQL stands for Structured Query Language and is domain-specific. <br/>
+    It is used in programing to store, manipulate and retrieve data from databses.
+
+
+</p>
+
+<h2>My Current Lanuages </h2>
+
+<h3>HTML</h3>
+
+<p class="mylanguagesp">
+
+
+</p>
+
+<br/><br/><br/>
+
+<h3>CSS</h3>
+
+<p class="mylanguagesp"> 
+
+
+    info about below 
+    <br/><br/>
+
+    .headers { <br/>
+        animation-duration: 1s; <br/>
+          animation-name: slidein; <br/><br/>
+        
+    
+    }<br/><br/>
+    
+    @keyframes slidein { <br/>
+      from { <br/>
+        margin-left: 100%; <br/>
+        width: 100%; <br/><br/>
+      } <br/><br/>
+    
+      to { <br/>
+        margin-left: 0%; <br/>
+        width: 100%; <br/><br/>
+      
+      }<br/><br/>
+    
+    }<br/><br/> </p>
+
+    <p class="mylanguagesp">
+    
+    In the example below I styled my button with states, shadows and transitions. It can be found on the 
+     <a class="froglink" href="index.html">Home</a> page.    <br/><br/>
+     The subtle changes in states, such as the border radius (roundness) and 
+     the border shadow increasing or decreasing incrementally and chronologically makes for a smooth animation. 
+    <br/><br/>
+
+
+
+    .jsbutton {  <br/>
+        height:80px;<br/>
+        width: 120px;<br/>
+        position: absolute;<br/>
+        top:25px;<br/>
+        left:20px;<br/>
+        background-color:#262525;<br/>
+        color: #fff;<br/>
+        border:none;<br/>
+        border-radius:10px;<br/>
+        font-family: papyrus;<br/>
+        font-size: 14px;<br/>
+        box-shadow: 0px 0px 2px 2px rgb(0,0,0);<br/><br/>
+    
+    
+    
+    }<br/><br/>
+    
+    .jsbutton:hover {<br/>
+        height:80px;<br/>
+        width: 120px;<br/>
+        position: absolute;<br/>
+        top:25px;<br/>
+        left:20px;<br/>
+        background-color:#262525;<br/>
+        color: #fff;<br/>
+        border:none;<br/>
+        border-radius:20px;<br/>
+        font-family: papyrus;<br/>
+        font-size: 18px;<br/>
+        box-shadow: 0px 0px 4px 4px rgb(0,0,0,0.8);<br/>
+        transition: 0.7s;<br/>
+    
+    
+    
+    }<br/><br/>
+    
+    .jsbutton:active {<br/>
+        height:80px;<br/>
+        width: 120px;<br/>
+        position: absolute;<br/>
+        top:25px;<br/>
+        left:20px;<br/>
+        background-color:#fff;<br/>
+        color: #262525;<br/>
+        border:none;<br/>
+        border-radius:20px;<br/>
+        font-family: papyrus;<br/>
+        font-size: 18px;<br/>
+        box-shadow: 0px 0px 4px 4px rgb(0,0,0);<br/>
+        transition: 0.3s;<br/><br/>
+    
+    
+    
+    }<br/><br/>
+    
+    
+
+</p>
+
+<h3> CSS Flexbox demonstration</h3>
+
+<div class="flexbox">
+
+      <h4> 1.CSS </h4>  
+      <h4> 2.CSS </h4> 
+      <h4> 3.CSS </h4> 
+      <h4> 4.CSS </h4> 
+      
+
+</div>
+
+<p class="mylanguagesp">
+
+
+    The '.flexbox' is the name of the div class containing the 4 CSS titled headers. <br/>
+    It has made the text go in reverse order and have an equal space around them from margin to margin.  <br/><br/>
+
+    The '.flexbox h4' targets the CSS titled header 4s as individual elements to be customised. <br/>
+    The following font-families are back-ups, in order, incase a browser doesn't support the original font.
+
+    <br/><br/>
+
+    Justify-content aligns items horizontally and accepts the following values:<br/><br/>
+    flex-start: Items align to the left side of the container. 
+    flex-end: Items align to the right side of the container. 
+    center: Items align at the center of the container. 
+    space-between: Items display with equal spacing between them. 
+    space-around: Items display with equal spacing around them.
+
+
+
+    It will be worth visiting <a class="froglink" href=""https://flexboxfroggy.com/> the Flexbox Frog game </a>to revise the basics.<br/><br/>
+    
+    .flexbox { <br/>
+        display:flex; <br/>
+        justify-content:space-around; <br/>
+        flex-flow:row-reverse wrap; <br/><br/>
+        
+        
+    
+    
+    
+    
+    }<br/><br/>
+    
+    .flexbox h4 {<br/>
+        color:white;<br/>
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;<br/>
+        font-weight:bold;<br/>
+        font-size:20px;<br/><br/>
+    
+    
+    
+    
+    }<br/><br/>
+
+
+   
+
+</p>
+
+<h3> Transition example CSS </h3>
+
+<p class="mylanguagesp"> 
+
+    Hovering over the parent Div (blue field) will make the child Div (red field) 
+    animate across the X-axis in 5 seconds. <br/>
+
+    You will notice that upon removing the cursor from the parent field returns the 
+    child Div (red field) back to its original position as the same speed. <br/>
+
+    This is because I have ALSO added the 'transition:5s' property to the '.child' in CSS, as well. <br/>
+
+    The colour of the child Div will also gradually change color, as the ':hover' state in CSS 
+    has been allocated the color pink (it's almost white) AS WELL AS the transition property. Meaning that 
+    it not only traverses the X-axis over 5 seconds, but also changes color over 5 seconds.
+    </p>
+
+
+<div class="parent">
+
+    <div class="child"> </div>
+
+
+</div>
+
+
+
+
+<h3>Python</h3>
+
+<p class="mylanguagesp">
+
+    
+
+
+
+Datatypes. <br/><br/>
+
+Strings store a series of characters: "string of words". <br/><br/>
+
+Integers store whole numbers: 54 <br/><br/>
+
+Floats store decimal numbers: 250.5 <br/><br/>
+
+Booleans store true of false: True/False <br/>
+human = False <br/>
+print ("Are you a human?: " +str(human) ) #typecasted <br/><br/>
+
+Multiple assignment.  <br/><br/>
+
+Instead of: <br/><br/>
+
+name = "Jordan" <br/>
+age = 24 <br/>
+hair = "ginger" <br/>
+attractive = True <br/><br/>
+
+You can assign multiple variables in one line of code: <br/><br/>
+
+name, age, hair, attractive = "Jordan ", 24, " ginger ", True <br/><br/>
+
+print(name + str(age) + hair + str(attractive))  #age and attractive had to be typecasted as strings to be concatonated. <br/><br/>
+
+String methods. <br/><br/>
+
+name = "Jordan" <br/><br/>
+
+print(len(name)) #gives length of name <br/>
+print(name.find("d")) #finds the number of character beginning with 0 as first letter <br/>
+print(name.capitalize()) #capitalizes first letter <br/>
+print(name.upper()) #prints in all upper case <br/>
+print(name.lower()) #prints in lower case <br/>
+print(name.isdigit()) #will state true/false whether string is a digit or not <br/>
+print(name.isalpha()) #states whether its only alphabetical characters or not <br/>
+print(name.count("d")) #counts number of stated <br/>
+print(name.replace("o", "x")) #replaces stated <br/>
+print(name*3) #prints it three times <br/><br/>
+
+Typecasting. Changing data type.  <br/><br/>
+
+#x = 1 <br/>
+#y = 2.0 <br/>
+#z = "3" <br/><br/>
+
+You cannot normally perform math on strings. <br/><br/>
+
+y = int(y) #now shows just as 2, and integer not a float  <br/>
+z = int(z) #can now do math on it as if it was in integer <br/><br/>
+ 
+x = float(x) #shows all as decimals now <br/>
+y = float(y)<br/>
+z = float(z) <br/><br/>
+
+print(x) <br/>
+print(y) <br/>
+print(z) <br/><br/>
+ 
+You cannot normally display a string with an integer or a float
+therefore converting them to strings allows the calculation to be done.  <br/><br/>
+
+x = str(x) <br/>    #globalising X as a string
+y = str(y)<br/>
+z = str(z) <br/><br/>
+
+print("X is: " + x) <br/>
+print("Y is: " + y) <br/>
+print("Z is: " + z) <br/><br/>
+
+Another method of typecasting, this is independtant to the line of code and no globalised. <br/><br/>
+
+print("X is: " + str(x)) <br/>
+print("Y is: " + str(y)) <br/>
+print("Z is: " + str(z)) <br/><br/>
+
+User input. <br/><br/>
+
+name = input ("What is your name? ") <br/>
+#print("Hello " + name ) <br/>
+
+age = int(input("How old are you? ")) <br/>
+
+print(str(age) + "!!  " + "That is very old,  " + name) <br/>
+
+age = age + 1 <br/>
+
+print ("So next you're you will be " + str(age)) <br/>
+
+
+name = input ("What is your name? ") <br/>
+print("Hello " + name ) <br/>
+
+age = int(input("How old are you? ")) <br/>
+
+print(str(age) + "!!  " + "That is very old,  " + name) <br/>
+
+age = age + 1 <br/>
+
+print("So next you're you will be " + str(age)) <br/>
+
+height = float(input("How tall are you? ")) <br/>
+
+print(str(height) + "cm" + " that's tall!") <br/><br/>
+
+
+Math. <br/><br/>
+
+import math <br/><br/> #imports are usually built in to python but need importing  <br/><br/>
+
+pi = 3.1415 <br/>
+x = 2<br/>
+y = 3<br/>
+z = 4<br/><br/>
+
+
+
+print(round(pi)) #round to nearest hole <br/>
+print(math.ceil(pi)) #round up <br/>
+print(math.floor(pi)) #round down <br/>
+print(abs(pi)) #tells you how far number is from 0 <br/>
+print(pow(pi,2)) #power of 2 <br/>
+print(math.sqrt(pi)) #finds square root <br/>
+print(max(x,y,pi)) #finds highest value <br/>
+print(min(z,x,pi)) #finds lowest value <br/><br/>
+
+Slicing and Indexing.  <br/><br/>
+
+indexing [] slicing () <br/>
+[start:stop:step] <br/>
+ 
+name = "Jordan Dignan" <br/>
+
+first_name = name [0:6] <br/>
+last_name = name [7:13] <br/> <br/>
+
+Can be written easier as: <br/><br/>
+
+first_name = name [:6] from start to 6<br/>
+last_name = name [7:] from 7 to end<br/>
+
+funky_name = name [0:13:3] #[start:stop:step]<br/>
+
+reversed_name = name [::-1] #can leave them blank as python knows its from start to end when bank <br/><br/>
+
+
+
+print(first_name) <br/><br/>
+print(last_name) <br/>
+print(funky_name) #every 3rd character including first <br/>
+print(reversed_name) <br/>
+
+name = "Jordan Dignan" <br/>
+
+slice = slice(3,-2) <br/>
+
+print(name[slice]) #shows the slice of string from 3rd character from left to second char from right <br/><br/>
+
+If statements. <br/><br/>
+
+age = int(input("How old are you? ")) <br/><br/>
+
+if age >= 18:<br/>
+    print("You may have the beer") #only indent for block of code within each part loops!!!<br/><br/>
+
+elif age == 100:    #double equals == is to check is a value is the same as another. NOT to say that is is.<br/>
+    print("Wow, you're old") #this code will not run, as 100 is over 18, the program will skip the rest of the loops<br/><br/>
+
+elif age < 0: #match indents! <br/>
+    print("How are you even doing this?") #indent! <br/><br/>
+
+else: #no indent!<br/>
+    print("No beer for you") #indent!<br/><br/>
+
+
+answer = input("do you like one or two?")<br/><br/>
+
+if answer == "one":<br/>
+    print("A wise choice")<br/><br/>
+
+elif answer == "two":<br/>
+    print("A poor choice")<br/><br/>
+
+else:<br/>
+    print("You're a loser. A milk drinker. Begone.")<br/><br/>
+
+Logical Operators: and, or, not. <br/><br/>
+
+temp = int(input("What's the temperature outside?")) <br/><br/>
+
+if temp >=0 and temp <= 30:<br/>
+    print("Oh, it's not too bad outside today at " + str(temp) + " degrees") <br/><br/>
+
+elif temp <0 or temp >30 :     #as long as at least ONE 'or' is true, statement will show <br/>
+    print("That's some extreme weather at " + str(temp) + " degrees") <br/><br/>
+else:<br/>
+     quit() <br/><br/>
+
+temp = int(input("What's the temperature outside?")) <br/><br/>
+
+if not temp >=0 and temp <= 30: #the NOT takes a true statement and makes it false, therefore output here is wrong
+                                    #way round <br/>
+    print("Oh, it's not too bad outside today at " + str(temp) + " degrees") <br/><br/>
+
+elif not temp <0 or temp >30 : <br/>
+    print("That's some extreme weather at " + str(temp) + " degrees") <br/><br/>
+
+else: <br/>
+    quit()<br/><br/>
+
+
+
+My Quiz. <br/><br/>
+
+
+print("Hello, and welcome to the quiz!!!") <br/><br/>
+
+player_name = input("Firstly, what is your name?  ")<br/><br/>
+
+print("Hello " + player_name)<br/><br/>
+
+answer = input("Are you ready to begin? ")<br/><br/>
+
+if answer.lower() != "yes":<br/>
+    #print("That's a shame! Maybe next time?")<br/>
+    #quit()<br/><br/>
+
+print("Great! Then let's begin!")<br/><br/>
+
+score = 0<br/><br/>
+
+print("Here is your first question:")<br/><br/>
+
+
+answer = input("1. What does CPU stand for? ")<br/><br/>
+
+if answer.lower() == "central processing unit":<br/>
+    #print("Correct, " + player_name + " You got 1 point.")<br/>
+    #score += 1<br/><br/>
+
+else:<br/>
+    #print("Incorrect! Unlucky, " + player_name + " You didn't get a point this  time.")<br/><br/>
+
+
+answer = input("2. What does GPU stand for? ")<br/><br/>
+
+if answer.lower() == "graphics processing unit":<br/>
+    #print("Correct, " + player_name + " You got another point.")<br/>
+    #score += 1<br/><br/>
+else:<br/>
+    #print("Incorrect! Unlucky, " + player_name + " You didn't get a point this  time.")<br/><br/>
+
+
+answer = input("3. What is the name of a datatype which is number with a decimal point? ")<br/><br/>
+if answer.lower() == "float":<br/>
+    #print("Correct, " + player_name + " You got another point.")<br/>
+    #score += 1<br/><br/>
+else:<br/>
+    #print("Incorrect! Unlucky, " + player_name + " You didn't get a point this  time.")<br/><br/>
+
+
+answer = str(input("4. What is the number '9' in binary code? "))<br/><br/>
+if answer.lower() == "1001":<br/>
+    #print("Correct, " + player_name + " You got another point.")<br/>
+    #score += 1<br/><br/>
+else:<br/>
+    #print("Incorrect! Unlucky, " + player_name + " You didn't get a point this  time.")<br/><br/>
+
+
+answer = input("5. What is the word for the way in which a programming language is written? ")<br/><br/>
+if answer.lower() == "syntax":<br/>
+    #print("Correct, " + player_name + " You got another point.")<br/>
+    #score += 1 <br/><br/>
+else:
+    #print("Incorrect! Unlucky, " + player_name + " You didn't get a point this  time.") <br/><br/>
+
+
+answer = input("6.What does LAN stand for in terms of a computer network? ") <br/><br/>
+if answer.lower() == "local area network":<br/>
+    #print("Correct, " + player_name + " You got 1 point.")<br/>
+    #score += 1<br/><br/>
+else:
+    #print("Incorrect! Unlucky, " + player_name + " You didn't get a point this  time.")<br/><br/>
+
+answer = input("7. What does RAM stand for? ")<br/><br/>
+if answer.lower() == "random access memory":<br/>
+    #print("Correct, " + player_name + " You got 1 point.")<br/>
+    #score += 1<br/><br/>
+else:
+    #print("Incorrect! Unlucky, " + player_name + " You didn't get a point this  time.")<br/><br/>
+
+
+answer = input("8. What does HTML stand for? ")<br/><br/>
+if answer.lower() == "hypertext markup language":<br/>
+    #print("Correct, " + player_name + " You got another point.")<br/>
+    #score += 1<br/><br/>
+else:
+    #print("Incorrect! Unlucky, " + player_name + " You didn't get a point this  time.")<br/><br/>
+
+
+answer = input("9. What is the name of a program which converts a programming language 
+into a readable language for the computer? (i.e binary) ") <br/><br/>
+if answer.lower() == "compiler":<br/>
+    print("Correct, " + player_name + " You got another point.")<br/>
+    score += 1 <br/><br/>
+else:
+    print("Incorrect! Unlucky, " + player_name + " You didn't get a point this  time.")<br/><br/>
+
+
+answer = input("10. What is the name of a datatype with two possible values (True or False/ On or Off/ Yes or No?)")<br/><br/>
+if answer.lower() == "boolean":<br/>
+    #print("Correct, " + player_name + " You got another point.")<br/>
+    #score += 1 <br/><br/>
+else:
+    #print("Incorrect! Unlucky, " + player_name + " You didn't get a point this  time.") <br/><br/>
+
+
+print("That's the quiz over! Well done " + player_name + " You finished with " + str(score) + " points.")<br/>
+print("You percentage was: " + str((score/10) * 100) + "%")
+
+</p>
+
+<h3> Programming Types </h3>
+
+<p class="typesp"> 
+    Different languages operate in different manners. These 
+    different types are classified as programming paradigms. Here are some examples: <br/><br/><br/>
+
+    Procedural language: <br/><br/>
+
+    In procedural languages, the program code is written as a sequence of instructions. 
+    User has to specify “what to do” and also “how to do” (step by step procedure). 
+    These instructions are executed in the sequential order.
+    These instructions are written to solve specific problems.
+    
+
+    <br/><br/><br/>
+
+    Object-oriented language: <br/><br/>
+
+    Object-oriented programming (OOP) is a style of programming characterized by the identification of 
+    classes of objects closely linked with the methods (functions) with which they are associated. 
+    It also includes ideas of inheritance of attributes and methods.
+
+    <br/><br/><br/>
+
+    Imperative programming: <br/><br/>
+
+    In imperative programming, every operation is coded and the code itself specifies how the problem is to be solved, 
+    which means that pre-coded models are not called on.
+
+    <br/><br/><br/>
+
+    Domain-specific language: <br/><br/>
+
+    Such as SQL,  is a type of computer language of limited scope, 
+    designed to address a particular problem within an application domain
+
+    <br/><br/><br/>
+
+</p>
+
+<h3>Coding Princples</h3>
+
+<p class="principlesp">
+    There are general rules and guidlines that programmers tend to follow. These makes syntax more universal as everyone
+    pitches in to keep others updated on the most efficient way to code. Here are some examples of principles:
+<br/><br/><br/>
+
+KISS: Keep it short and simple. Programs run best when code is concise and simple.
+
+<br/><br/>
+
+DRY: Dont Repeat Yourself. Using Functions/Loops is the efficient way of doing this and can cause less bugs and crashes.
+
+<br/><br/>
+
+Refactoring code: regularly examing and revising your code will make you a better programmer and make your program better. <br/>
+It will take you less time to figure out errors.
+
+<br/><br/>
+
+Document your code: leaving comments that are glossed over by he machine allow you to keep track of your code and 
+allows colleagues to examine your code more easily.
+
+
+</p>
+
+<h3>Key Terms</h3>
+
+<p class="keytermsp">
+
+Algorithm: a set of instructions followed to solve a problem or process <br/><br/>
+
+
+Argument: a way to provide information to a function. Function then uses the information as it runs, 
+like a variable. <br/><br/>
+
+
+
+Arrays: are containers that hold variables, used to group similar variables. 
+It is a list with elements; the array is like a shelf and the things on it are the variables. <br/><br/>
+
+
+
+Arithmetic operators: is essential in applications. It does mathematic operations. <br/>
+eg. If a character in a game earns XP it has to be added, if they take damage health has to be subtracted etc 
+<br/><br/>
+
+
+
+Assignment operators: perform operations. For example the assignment operator "="" assigns it as equalled <br/>
+Whereas the assignment operator "+"" will add them together etc.
+<br/><br/>
+
+
+IDE (Integrated Developemnt Environment):  a software application that provides comprehensive 
+facilities to computer programmers for software development. <br/><br/>
+
+Source code: the statements that are created by a programmer in the IDE. <br/><br/>
+
+
+Syntax: the way it has to be written to be understood by that language, i.e the grammar <br/><br/>
+
+</p>
+
+
+<div class="footer">by Jordan Dignan</div>
+
+
+</body>
+
+</html>
