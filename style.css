@@ -4,21 +4,29 @@
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 body {background-color: #252324;
 	
 }
 
-nav {
+#navbar{
 	width:100;
 	height: 100px;
 	background-color:#8F011B;
-	
-
+	position: fixed;
+	top: 0;
+	transition: top 0.7s;
+	border-style:groove;
+	border-color:#252324;
+	border-width:5px;
+	border-radius:123px;
 }
 
 .navul {
 	text-align:center;
 	margin-left: 0;
+	 
 	
 }
 
@@ -41,6 +49,11 @@ nav {
 	
 
 }
+
+
+
+
+
 
 .navul li a:hover {
 	color:brown;
@@ -68,6 +81,7 @@ h1 {
 	text-decoration:underline;
 	margin-top:30px;
 	margin-bottom:5px;
+	
 
 
 }
@@ -136,7 +150,7 @@ h2 {
 	background-color: grey;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
+	font-family: roboto;
 	font-weight: bold;
 	font-size: 16px;
 	
@@ -145,8 +159,8 @@ h2 {
 }
 
 .briefp {
-	color:black;
-	background-color: grey;
+	color:white;
+	background-color: black;
 	text-align: center;
 	padding: 5px;
 	font-family: helvetica;
@@ -173,7 +187,7 @@ h2 {
 	background-color: grey;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
+	font-family: roboto;
 	font-weight: bold;
 	font-size: 16px;
 
@@ -188,6 +202,7 @@ h2 {
 	border-width: 1px;
 	font-weight: bold;
 	padding: 2px;
+	
 
 
 }
@@ -201,7 +216,7 @@ td {
 	background-color: grey;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
+	font-family: roboto;
 	font-weight: bold;
 	font-size: 16px;
 
@@ -214,7 +229,7 @@ td {
 	background-color: grey;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
+	font-family: roboto;
 	font-weight: bold;
 	font-size: 16px;
 
@@ -226,7 +241,7 @@ td {
 	background-color: grey;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
+	font-family: roboto;
 	font-weight: bold;
 	font-size: 16px;
 
@@ -240,7 +255,7 @@ td {
 	background-color: grey;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
+	font-family: roboto;
 	font-weight: bold;
 	font-size: 16px;
 
@@ -307,7 +322,7 @@ h3 {
 	background-color: grey;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
+	font-family: roboto;
 	font-weight: bold;
 	font-size: 16px;
 
@@ -321,7 +336,7 @@ h3 {
 	background-color: grey;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
+	font-family: roboto;
 	font-weight: bold;
 	font-size: 16px;
 
@@ -330,11 +345,11 @@ h3 {
 }
 
 .typesp {
-	color:black;
-	background-color: grey;
+	color:#0e6b0e;
+	background-color: black;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
+	font-family: monospace;
 	font-weight: bold;
 	font-size: 16px;
 
@@ -343,11 +358,11 @@ h3 {
 }
 
 .langp {
-	color:black;
-	background-color: grey;
+	color:#0e6b0e;
+	background-color: black;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
+	font-family: monospace;
 	font-weight: bold;
 	font-size: 16px;
 
@@ -356,11 +371,11 @@ h3 {
 }
 
 .keytermsp {
-	color:black;
-	background-color: grey;
+	color:#0e6b0e;
+	background-color: black;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
+	font-family: monospace;
 	font-weight: bold;
 	font-size: 16px;
 
@@ -371,9 +386,8 @@ h3 {
 .jsbutton {
 	height:80px;
 	width: 120px;
-	position: absolute;
-    top:25px;
-	left:20px;
+	float:right;
+	position:static;
 	background-color:#262525;
     color: #fff;
     border:none;
@@ -388,11 +402,6 @@ h3 {
 }
 
 .jsbutton:hover {
-	height:80px;
-	width: 120px;
-	position: absolute;
-    top:25px;
-	left:20px;
 	background-color:#262525;
     color: #fff;
     border:none;
@@ -407,17 +416,10 @@ h3 {
 }
 
 .jsbutton:active {
-	height:80px;
-	width: 120px;
-	position: absolute;
-    top:25px;
-	left:20px;
 	background-color:#fff;
     color: #262525;
     border:none;
     border-radius:20px;
-	font-family: papyrus;
-	font-size: 18px;
     box-shadow: 0px 0px 4px 4px rgb(0,0,0);
 	transition: 0.3s;
 
@@ -441,12 +443,13 @@ h3 {
 
 .aboutmep {
 	color:black;
-	background-color: grey;
+	background-color: #e1ad6d;
 	text-align: left;
 	padding: 5px;
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 16px;
+	font-style:italic;
 
 
 
@@ -454,12 +457,13 @@ h3 {
 
 .topthreep {
 	color:black;
-	background-color: grey;
+	background-color: #e1ad6d;
 	text-align: left;
 	padding: 5px;
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 16px;
+	font-style:italic;
 
 
 
@@ -467,13 +471,12 @@ h3 {
 
 .topthreediv {
 	color:black;
-	background-color: grey;
+	background-color: #e1ad6d;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
 	font-weight: bold;
 	font-size: 16px;
-
+	font-style:italic;
 
 
 
@@ -481,13 +484,13 @@ h3 {
 
 .hobbiesp {
 	color:black;
-	background-color: grey;
+	background-color: #e1ad6d;
 	text-align: left;
 	padding: 5px;
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 16px;
-
+	font-style:italic;
 
 
 
@@ -496,25 +499,25 @@ h3 {
 
 .developp {
 	color:black;
-	background-color: grey;
+	background-color: #e1ad6d;
 	text-align: left;
 	padding: 5px;
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 16px;
-
+	font-style:italic;
 
 }
 
 .skillsp {
 	color:black;
-	background-color: grey;
+	background-color: #e1ad6d;
 	text-align: left;
 	padding: 5px;
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 16px;
-
+	font-style:italic;
 
 
 }
@@ -522,13 +525,13 @@ h3 {
 
 .placesp {
 	color:black;
-	background-color: grey;
+	background-color: #e1ad6d;
 	text-align: left;
 	padding: 5px;
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 16px;
-
+	font-style:italic;
 
 }
 
@@ -604,11 +607,11 @@ h3 {
 
 
 .principlesp {
-	color:black;
-	background-color: grey;
+	color:#0e6b0e;
+	background-color: black;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
+	font-family: monospace;
 	font-weight: bold;
 	font-size: 16px;
 
@@ -616,11 +619,11 @@ h3 {
 
 
 .mylanguagesp {
-	color:black;
-	background-color: grey;
+	color:#0e6b0e;
+	background-color: black;
 	text-align: left;
 	padding: 5px;
-	font-family: helvetica;
+	font-family: monospace;
 	font-weight: bold;
 	font-size: 16px;
 
@@ -703,5 +706,27 @@ h3 {
 	transform:translateX(1285px);  /* this code moves the child 1285px X-axis when parent div is being hovered */
 	background-color: pink;
 	transition:5s;
+
+}
+
+
+
+
+.agileimg {
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+	
+
+
+}
+
+.agileimg img {
+	width:350px;
+	height:350px;
+	border: 5x solid black;
+	
+
 
 }
